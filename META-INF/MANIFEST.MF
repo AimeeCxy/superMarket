@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: SuperMarket
+Bundle-SymbolicName: superMarket; singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.shxt.supermarket.core.Activator
+Bundle-Vendor: shxt_cxy
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: libs/mysql-connector-java-5.1.18-bin.jar,
+ .
